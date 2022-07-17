@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #d9dcd6;
+    background-color: gray;
 }
 
 /* apply styles to <header> */
@@ -83,6 +83,7 @@ header a {
 .section-title {
     font-size: 55px;
     color: #ffffff;
+    margin-bottom: 35px;
     padding: 20px 100px 20px 100px;
     display: inline-block;
     border-bottom: 3px solid;
@@ -93,78 +94,50 @@ header a {
 }
 
 .content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .content p {
     font-size: 25px;
 }
 
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
+.how {
+    width: 1500px;
+    margin: 0 auto 30px auto;
+    background: #2589bd;
     color: #ffffff;
-}
+    overflow: auto;
+  }
 
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.float-left {
+  .how img {
+    width: 35%;
     float: left;
-    margin-right: 25px;
-}
+  }
 
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
+  .how-desc {
+    padding: 35px;
+    float: left;
+    width: 65%;
+  }
+
+  .how-desc h3 {
+    font-size: 32px;
+    margin-bottom: 8px;
+  }
+
+  .how-desc p {
+    font-size: 27px;
+    line-height: 1.3;
+  }
+
+  .text-left {
+    text-align: left;
+  }
+
+  .text-right {
+    text-align: right;
+  }
 
 footer {
     padding: 30px;
