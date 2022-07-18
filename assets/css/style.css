@@ -63,7 +63,7 @@ header a {
 .content {
     width: 75%;
     display: inline-block;
-    padding: 50px 50px 50px 50px;
+    padding: 0 50px 50px 50px;
 }
 
 .content h2 {
@@ -71,7 +71,7 @@ header a {
 }
 
 .content p {
-    font-size: 26px;
+    font-size: 20px;
 }
 
 /* apply styles to search-engine class */
@@ -150,10 +150,10 @@ header a {
 
 .benefits {
     margin-right: 20px;
-    padding: 20px;
+    padding: 15px 50px 150px 50px;
     clear: both;
     float: right;
-    width: 20%;
+    width: 23%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
@@ -206,6 +206,8 @@ header a {
     margin: 10px auto;
     max-width: 150px;
 }
+
+/* apply styles to <footer> */
 
 footer {
     padding: 30px;
