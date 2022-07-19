@@ -63,7 +63,7 @@ header a {
 .content {
     width: 75%;
     display: inline-block;
-    padding: 0 50px 50px 50px;
+    padding: 0 20px 0 20px;
 }
 
 .content h2 {
@@ -150,7 +150,7 @@ header a {
 
 .benefits {
     margin-right: 20px;
-    padding: 15px 50px 150px 50px;
+    padding: 15px 50px 50px 50px;
     clear: both;
     float: right;
     width: 23%;
@@ -172,7 +172,7 @@ header a {
 .benefits img {
     display: block;
     margin: 10px auto;
-    max-width: 240px;
+    max-width: 150px;
 }
 
 .benefits p {
