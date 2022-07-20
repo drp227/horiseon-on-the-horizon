@@ -149,11 +149,11 @@ header a {
 /* apply styles to benefits section */
 
 .benefits {
-    margin-right: 30px;
-    padding: 15px 50px 50px 50px;
+    margin-right: 20px;
+    padding: 20px;
     clear: both;
     float: right;
-    width: 23%;
+    width: 20%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
